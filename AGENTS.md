@@ -23,6 +23,6 @@ must be installed separately (e.g. `brew install graphviz`) for SVG output.
 
 - Three main files: `main.js` (CLI entry, orchestration), `parseReactComponents.js`
   (Babel AST traversal), `generateGraph.js` (Graphviz DOT/SVG generation).
-- Node.js >= 14.0.0 (per `package.json` `engines`).
+- Node.js >= 18.0.0 (per `package.json` `engines`).
 
 See README.md for full usage, examples, and known limitations.
